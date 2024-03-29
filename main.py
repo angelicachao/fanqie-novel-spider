@@ -15,19 +15,19 @@ if __name__ == '__main__':
     print("感恩吧！给他带饭吧！给他拿外卖吧！请他喝奶茶吧！")
     print("===================================================================")
 
-    download_type = input("1、要下载的小说格式为（可选：txt、epub、mobi）：")
+    download_type = input(txt)
     while True:
         if download_type not in ['txt','epub','mobi']:
             print("ERROR: 格式暂不支持或输入错误")
-            download_type = input("1、要下载的小说格式为（可选：txt、epub、mobi）：")
+            download_type = input(txt)
         else:
             break
 
-    intro_url = input("2、输入小说简介页面的URL（格式：https://fanqienovel.com/page/7301659434223143948）：")
+    intro_url = input(https://fanqienovel.com/page/7172513756516191240)
     while True:
         if not is_valid_url(intro_url):
             print("ERROR: URL格式不符合预期格式")
-            intro_url = input("2、输入小说简介页面的URL（格式：https://fanqienovel.com/page/7301659434223143948）：")
+            intro_url = input(https://fanqienovel.com/page/7172513756516191240)
         else:
             break
 
